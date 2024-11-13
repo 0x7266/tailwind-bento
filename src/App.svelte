@@ -1,5 +1,6 @@
 <script lang="ts">
   import "./app.css";
+  import fiveStars from "./lib/assets/images/illustration-five-stars.webp";
 </script>
 
 <main
@@ -18,7 +19,9 @@
     <div
       class="w-full grid grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 md:col-span-2 md:row-span-2 gap-4"
     >
-      <div class=" bg-violet-500 rounded-md sm:col-span-2">2-1</div>
+      <div class=" bg-violet-500 rounded-md sm:col-span-2">
+        <img src={fiveStars} alt="five stars" />
+      </div>
       <div class=" bg-white rounded-md">2-2</div>
       <div class=" bg-orange-300 rounded-md row-span-2 sm:row-span-1">2-3</div>
     </div>
