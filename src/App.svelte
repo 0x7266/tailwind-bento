@@ -10,11 +10,9 @@
   import schedulePosts from "./lib/assets/images/illustration-schedule-posts.webp";
 </script>
 
-<main
-  class="flex max-h-dvh w-full flex-col items-center justify-center overflow-hidden bg-[#f6f5f6] p-6"
->
+<main class="flex h-dvh flex-col items-center justify-center bg-[#f6f5f6]">
   <div
-    class="grid-rows grid h-full w-full gap-4 sm:grid-cols-2 sm:grid-rows-5 md:h-[881px] md:w-[1120px] md:grid-cols-4 md:grid-rows-3"
+    class="grid w-full gap-4 sm:grid-cols-2 sm:grid-rows-5 md:h-[881px] md:w-[1120px] md:grid-cols-4 md:grid-rows-3"
   >
     <div
       class="order-last grid gap-4 sm:col-span-2 sm:grid-cols-2 md:order-first md:col-span-1 md:row-span-3 md:w-[256px] md:grid-cols-1"
@@ -30,14 +28,14 @@
         <img src={createPost} alt="create schedule content" class="w-48" />
       </div>
       <div
-        class="flex flex-col justify-center gap-9 rounded-[10px] bg-yellow-500 sm:row-span-2 md:h-[434px] md:p-300"
+        class="flex flex-col justify-between gap-9 rounded-[10px] bg-yellow-500 sm:row-span-2 md:h-[434px] md:p-300"
       >
         <p
           class="font-dm-sans text-text-preset-2 font-medium leading-text-preset-2 tracking-text-preset-2"
         >
-          Write your content using AI.
+          Write your content<br />using AI.
         </p>
-        <img src={aiContent} alt="five stars" class="w-52" />
+        <img src={aiContent} alt="five stars" class="" />
       </div>
     </div>
 
@@ -45,18 +43,22 @@
       class="grid w-full grid-rows-4 gap-4 sm:grid-cols-2 sm:grid-rows-2 md:col-span-2 md:row-span-2"
     >
       <div
-        class="flex flex-col items-center justify-center gap-4 rounded-[10px] bg-purple-500 p-6 sm:col-span-2"
+        class="flex flex-col items-center justify-center gap-300 rounded-[10px] bg-purple-500 p-400 sm:col-span-2 md:h-[324px] md:w-[544px]"
       >
         <p
-          class="text-center font-dm-sans text-6xl font-medium tracking-tight text-white"
+          class="text-center font-dm-sans text-text-preset-1 font-medium leading-text-preset-1 tracking-text-preset-1 text-white"
         >
-          Social Media <span class="text-yellow-500">10x</span><br /><em
-            >Faster</em
+          Social Media <span class="text-yellow-500">10x</span><br /><span
+            class="italic">Faster</span
           > with AI
         </p>
         <div class="flex flex-col items-center justify-center gap-1">
-          <img src={fiveStars} alt="five stars" class="w-1/2" />
-          <p class="text-white">Over 4,000 5-stars reviews</p>
+          <img src={fiveStars} alt="five stars" class="h-400 w-[192px]" />
+          <p
+            class="font-dm-sans text-text-preset-4 leading-text-preset-4 tracking-text-preset-4 text-white"
+          >
+            Over 4,000 5-stars reviews
+          </p>
         </div>
       </div>
       <div
@@ -74,8 +76,25 @@
       </div>
     </div>
 
-    <div class="rounded-[10px] bg-purple-100 md:col-span-1 md:row-span-2">
-      <img src={schedulePosts} alt="create schedule content" />
+    <div
+      class="relative flex flex-col justify-around gap-300 overflow-clip rounded-[10px] bg-purple-100 p-400 md:col-span-1 md:row-span-2 md:h-[603px] md:w-[256px]"
+    >
+      <p
+        class="font-dm-sans text-text-preset-3 font-medium leading-text-preset-3 tracking-text-preset-3 text-black"
+      >
+        Schedule to social media.
+      </p>
+      <img
+        src={schedulePosts}
+        alt="create schedule content"
+        class="relative max-w-screen-2xl md:h-[318px] md:w-[357px]"
+      />
+      <p
+        class="font-dm-sans text-text-preset-4 leading-text-preset-4 tracking-text-preset-4"
+      >
+        Optimize post timings to publish content at the perfect time for your
+        audience.
+      </p>
     </div>
     <div
       class="grid gap-4 sm:col-span-2 sm:grid-cols-3 sm:grid-rows-1 md:col-span-3"
@@ -83,7 +102,7 @@
       <div
         class="rounded-[10px] bg-purple-500 sm:col-span-2 md:order-last md:row-span-1"
       >
-        <img src={growFollowers} alt="" />
+        <img src={growFollowers} alt="" class="w-20" />
       </div>
       <div
         class="row-span-2 rounded-[10px] bg-white sm:col-span-1 sm:row-span-1"
