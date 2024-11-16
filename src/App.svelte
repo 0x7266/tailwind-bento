@@ -20,10 +20,10 @@
             class="grid gap-4 order-last sm:col-span-2 sm:grid-cols-2 md:order-first md:row-span-3 md:col-span-1 md:grid-cols-1"
         >
             <div
-                class="bg-orange-100 rounded-md sm:row-span-2 flex flex-col gap-6 items-center justify-center"
+                class="bg-yellow-100 rounded-md sm:row-span-2 flex flex-col gap-6 items-center justify-center"
             >
                 <p class="text-4xl w-2/3">
-                    Create and schedule content <em class="text-violet-500"
+                    Create and schedule content <em class="text-purple-500"
                         >quickier.</em
                     >
                 </p>
@@ -34,7 +34,7 @@
                 />
             </div>
             <div
-                class="bg-orange-300 rounded-md sm:row-span-2 flex flex-col gap-9 items-center justify-center"
+                class="bg-yellow-500 rounded-md sm:row-span-2 flex flex-col gap-9 items-center justify-center"
             >
                 <p class="text-4xl w-2/3">Write your content using AI.</p>
                 <img src={aiContent} alt="five stars" class="w-52" />
@@ -45,12 +45,12 @@
             class="w-full grid grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 md:col-span-2 md:row-span-2 gap-4"
         >
             <div
-                class="bg-violet-500 rounded-md sm:col-span-2 flex flex-col items-center justify-center p-6 gap-4"
+                class="bg-purple-500 rounded-md sm:col-span-2 flex flex-col items-center justify-center p-6 gap-4"
             >
                 <p
                     class="text-white text-6xl text-center font-medium tracking-tight"
                 >
-                    Social Media <span class="text-yellow-300">10x</span><br
+                    Social Media <span class="text-yellow-500">10x</span><br
                     /><em>Faster</em> with AI
                 </p>
                 <div class="flex flex-col gap-1 items-center justify-center">
@@ -68,26 +68,26 @@
                 />
                 <p class="text-3xl">Manage multiple accounts and platforms.</p>
             </div>
-            <div class=" bg-orange-300 rounded-md row-span-2 sm:row-span-1">
+            <div class=" bg-yellow-100 rounded-md row-span-2 sm:row-span-1">
                 <img src={consistentSchedule} alt="five stars" />
             </div>
         </div>
 
-        <div class="bg-violet-200 rounded-md md:col-span-1 md:row-span-2">
+        <div class="bg-purple-100 rounded-md md:col-span-1 md:row-span-2">
             <img src={schedulePosts} alt="create schedule content" />
         </div>
         <div
             class="gap-4 grid sm:grid-cols-3 sm:grid-rows-1 sm:col-span-2 md:col-span-3"
         >
             <div
-                class="md:order-last bg-violet-500 rounded-md sm:col-span-2 md:row-span-1"
+                class="md:order-last bg-purple-500 rounded-md sm:col-span-2 md:row-span-1"
             >
                 <img src={growFollowers} alt="" />
             </div>
             <div
                 class="bg-white rounded-md row-span-2 sm:row-span-1 sm:col-span-1"
             >
-                <img src={audienceGrowth} alt="" />
+                <img src={audienceGrowth} alt="" class="w-40" />
             </div>
         </div>
     </div>
