@@ -20,20 +20,20 @@
       class="order-last grid gap-4 sm:col-span-2 sm:grid-cols-2 md:order-first md:col-span-1 md:row-span-3 md:w-[256px] md:grid-cols-1"
     >
       <div
-        class="md-h-[415px] flex flex-col items-center justify-center gap-6 rounded-md bg-yellow-100 sm:row-span-2 md:gap-300 md:p-400"
+        class="md-h-[415px] flex flex-col items-center justify-center gap-6 rounded-[10px] bg-yellow-100 sm:row-span-2 md:gap-300 md:p-400"
       >
         <p
-          class="font-dm-sans-medium text-text-preset-2 leading-text-preset-2 tracking-text-preset-2"
+          class="font-dm-sans text-text-preset-2 font-medium leading-text-preset-2 tracking-text-preset-2"
         >
           Create and schedule content <em class="text-purple-500">quickier.</em>
         </p>
         <img src={createPost} alt="create schedule content" class="w-48" />
       </div>
       <div
-        class="flex flex-col justify-center gap-9 rounded-md bg-yellow-500 sm:row-span-2 md:h-[434px] md:p-300"
+        class="flex flex-col justify-center gap-9 rounded-[10px] bg-yellow-500 sm:row-span-2 md:h-[434px] md:p-300"
       >
         <p
-          class="font-dm-sans-medium text-text-preset-2 leading-text-preset-2 tracking-text-preset-2"
+          class="font-dm-sans text-text-preset-2 font-medium leading-text-preset-2 tracking-text-preset-2"
         >
           Write your content using AI.
         </p>
@@ -45,9 +45,11 @@
       class="grid w-full grid-rows-4 gap-4 sm:grid-cols-2 sm:grid-rows-2 md:col-span-2 md:row-span-2"
     >
       <div
-        class="flex flex-col items-center justify-center gap-4 rounded-md bg-purple-500 p-6 sm:col-span-2"
+        class="flex flex-col items-center justify-center gap-4 rounded-[10px] bg-purple-500 p-6 sm:col-span-2"
       >
-        <p class="text-center text-6xl font-medium tracking-tight text-white">
+        <p
+          class="text-center font-dm-sans text-6xl font-medium tracking-tight text-white"
+        >
           Social Media <span class="text-yellow-500">10x</span><br /><em
             >Faster</em
           > with AI
@@ -58,7 +60,7 @@
         </div>
       </div>
       <div
-        class="relative flex flex-col gap-4 overflow-clip rounded-md bg-white p-6"
+        class="relative flex flex-col gap-4 overflow-clip rounded-[10px] bg-white p-6"
       >
         <img
           src={multiplePlatforms}
@@ -67,23 +69,25 @@
         />
         <p class="text-3xl">Manage multiple accounts and platforms.</p>
       </div>
-      <div class=" row-span-2 rounded-md bg-yellow-100 sm:row-span-1">
+      <div class=" row-span-2 rounded-[10px] bg-yellow-100 sm:row-span-1">
         <img src={consistentSchedule} alt="five stars" />
       </div>
     </div>
 
-    <div class="rounded-md bg-purple-100 md:col-span-1 md:row-span-2">
+    <div class="rounded-[10px] bg-purple-100 md:col-span-1 md:row-span-2">
       <img src={schedulePosts} alt="create schedule content" />
     </div>
     <div
       class="grid gap-4 sm:col-span-2 sm:grid-cols-3 sm:grid-rows-1 md:col-span-3"
     >
       <div
-        class="rounded-md bg-purple-500 sm:col-span-2 md:order-last md:row-span-1"
+        class="rounded-[10px] bg-purple-500 sm:col-span-2 md:order-last md:row-span-1"
       >
         <img src={growFollowers} alt="" />
       </div>
-      <div class="row-span-2 rounded-md bg-white sm:col-span-1 sm:row-span-1">
+      <div
+        class="row-span-2 rounded-[10px] bg-white sm:col-span-1 sm:row-span-1"
+      >
         <img src={audienceGrowth} alt="" class="w-40" />
       </div>
     </div>

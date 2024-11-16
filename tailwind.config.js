@@ -15,8 +15,7 @@ export default {
         black: "#121212",
       },
       fontFamily: {
-        "dm-sans-regular": ["DM Sans", "sans-serif"],
-        "dm-sans-medium": ["DM Sans Medium", "sans-serif"],
+        "dm-sans": ["DM Sans", "sans-serif"],
       },
       fontSize: {
         "text-preset-1": "62px",
