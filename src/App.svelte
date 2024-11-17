@@ -12,10 +12,10 @@
 
 <main class="flex h-dvh flex-col items-center justify-center bg-[#f6f5f6]">
   <div
-    class="grid w-full gap-4 sm:grid-cols-2 sm:grid-rows-5 md:h-[881px] md:w-[1120px] md:grid-cols-4 md:grid-rows-3"
+    class="grid w-full gap-400 sm:grid-cols-2 sm:grid-rows-5 md:h-[881px] md:w-[1120px] md:grid-cols-4 md:grid-rows-3"
   >
     <div
-      class="order-last grid gap-4 sm:col-span-2 sm:grid-cols-2 md:order-first md:col-span-1 md:row-span-3 md:w-[256px] md:grid-cols-1"
+      class="order-last grid gap-400 sm:col-span-2 sm:grid-cols-2 md:order-first md:col-span-1 md:row-span-3 md:w-[256px] md:grid-cols-1"
     >
       <div
         class="md-h-[415px] flex flex-col items-center justify-center gap-6 rounded-[10px] bg-yellow-100 sm:row-span-2 md:gap-300 md:p-400"
