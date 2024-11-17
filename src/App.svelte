@@ -62,17 +62,32 @@
         </div>
       </div>
       <div
-        class="relative flex flex-col gap-4 overflow-clip rounded-[10px] bg-white p-6"
+        class="flex flex-col justify-between overflow-clip rounded-[10px] bg-white p-300 md:h-[247px] md:w-[256px]"
       >
         <img
           src={multiplePlatforms}
-          alt="five stars"
-          class="relative -right-20"
+          alt="multiple platforms"
+          class="w-[316.08px] max-w-screen-2xl"
         />
-        <p class="text-3xl">Manage multiple accounts and platforms.</p>
+        <p
+          class="font-dm-sans text-text-preset-3 font-medium leading-text-preset-3 tracking-text-preset-3"
+        >
+          Manage<br />multiple accounts and platforms.
+        </p>
       </div>
-      <div class=" row-span-2 rounded-[10px] bg-yellow-100 sm:row-span-1">
-        <img src={consistentSchedule} alt="five stars" />
+      <div
+        class="flex flex-col justify-between gap-200 overflow-clip rounded-[10px] bg-yellow-500 p-300 md:h-[247px] md:w-[256px]"
+      >
+        <p
+          class="font-dm-sans text-text-preset-3 font-medium leading-text-preset-3 tracking-text-preset-3"
+        >
+          Maintain a consistent posting schedule.
+        </p>
+        <img
+          src={consistentSchedule}
+          alt="consistent schedule"
+          class="md:h-[157px] md:w-[208px]"
+        />
       </div>
     </div>
 
