@@ -1,4 +1,5 @@
 <script lang="ts">
+import
   import "./app.css";
   import fiveStars from "./lib/assets/images/illustration-five-stars.webp";
   import aiContent from "./lib/assets/images/illustration-ai-content.webp";
